@@ -1,0 +1,13 @@
+.lijevo{
+    font-size: large;
+    font-weight: bold;
+}
+#tabelaStatistike{
+    width: 80%;
+    align-self: center;
+    margin: auto;
+    font-size: large;
+    background-color: white;
+    border-radius: 2px;
+    margin-top: 20px;
+}

@@ -1,0 +1,32 @@
+.datumOcjena{
+    width: 100%;
+}
+#instruktorKartica{
+    margin:auto;
+    margin-top: 2%;
+}
+.profilnaSlika{
+    width: 200px;
+    height: 200px;
+}
+#instruktorInfo{
+    text-align: left;
+}
+#ocjena{
+    font-weight: bold;
+    font-size: xxx-large;
+}
+.ocjene{
+    width: 100%;
+}
+.custom-dialog {
+    position: absolute;
+    background-color: lightblue;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -150px;
+    padding:20px;
+    width:500px !important;
+    height: 300px;
+}

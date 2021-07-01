@@ -1,0 +1,80 @@
+.datumOcjena{
+    width: 100%;
+}
+#instruktorKartica{
+    margin:auto;
+    margin-top: 2%;
+}
+.profilnaSlika{
+    width: 200px;
+    height: 200px;
+}
+#instruktorInfo{
+    text-align: left;
+}
+#ocjena{
+    font-weight: bold;
+    font-size: xxx-large;
+}
+.ocjene{
+    width: 100%;
+}
+.custom-dialog {
+    position: absolute;
+    background-color: lightblue;
+    left: 50%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: -150px;
+    padding:20px;
+    width:500px !important;
+    height: 300px;
+}
+.zakaziKurs{
+    position: absolute;
+    background-color: lightblue;
+    left: 50%;
+    margin-left: -450px;
+    top: 50%;
+    margin-top: -250px;
+    padding:20px;
+    width:900px !important;
+    height: 500px;
+
+}
+.datumOcjena{
+    width: 100%;
+}
+#instruktorKartica{
+    margin:auto;
+    margin-top: 2%;
+}
+.profilnaSlika{
+    width: 200px;
+    height: 200px;
+}
+#profilnaSlikaKurs{
+    width: 160px;
+    height: 160px;
+}
+#instruktorInfo{
+    text-align: left;
+}
+#ocjena{
+    font-weight: bold;
+    font-size: xxx-large;
+}
+.ocjene{
+    width: 100%;
+}
+#tabelaPopunjenostKursa{
+    width:40%;
+    border-radius: 2px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.popunjenostKursa{
+    width: 50%;
+    border:1px solid black;
+}
