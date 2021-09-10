@@ -1,9 +1,21 @@
+#topN{
+    width: 50%;
+    margin: auto;
+}
+#minRating{
+    width: 50%;
+    margin: auto;
+}
 #userid{
-    width: 200px;
+    width: 90%;
     margin: auto;
 }
 #restaurantid{
-    width: 200px;
+    width: 90%;
+    margin: auto;
+}
+#radius{
+    width: 70%;
     margin: auto;
 }
 #recommenderButtons1{
@@ -30,28 +42,39 @@
     margin-left: 10px;
     margin-top: 10px;
 }
-#topN{
-    width: 100px;
-    margin: auto;
-}
-#minRating{
-    width: 100px;
-    margin: auto;
-}
 #grid-item1{
-    margin: 10px;
+    margin: 5px;
     background-color: #1a364d;
     height: 200px;
 }
 #grid-item2{
-    margin: 10px;
+    margin: 5px;
     background-color: #1a364d;
     height: 200px;
 }
 #grid-item3{
-    margin: 10px;
+    margin: 5px;
     background-color: #1a364d;
     height: 200px;
+}
+#grid-item4{
+    margin: 5px;
+    height: 550px;
+    background-color: #253b3b;
+}
+#grid-item5{
+    margin: 5px;
+    grid-row: 1 / span 3;
+    grid-column: 2;
+    background-color: #1a364d;
+}
+#grid-item6{
+    margin: 5px;
+    grid-row: 4;
+    grid-column: 2;
+    margin: 5px;
+    height: 550px;
+    background-color: #253b3b;
 }
 .paddCells{
     padding: 6px;
@@ -60,19 +83,15 @@
 .grid-container {
     display: grid;
     grid-row-gap: 60px;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 20% 80%;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 11% 11% 11% 67%;
     background-color: #091b2b;
     padding: 10px;
     color: aliceblue;
     height: 100%;
   }
 
-#grid-item5{
-    grid-column: 2 / span 2;
-}
-
-  #naslov{
+#naslov{
     width: 100%;
     height: 50px;
     font-size: xx-large;
@@ -81,8 +100,43 @@
   }
 
 #restaurant_info{
-    width: 95%;
-    margin: auto;
-    background-color: #3a5c2a50;
+    width: 98%;
+    margin: 5px;
     text-align: left;
+    height: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; 
+    font-size: larger;
+    font-weight: 100;
+    text-align: center;
+}
+
+.leftCells{
+    background-color: #4a912942;
+    width: 43%;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+}
+.rightCells{
+    background-color: #56744896;
+    width: 53%;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+}
+.middleCells{
+    width: 4%;
+}
+#predRatingLeftCell, #predRatingRightCell{
+    background-color: #cf5e4a79;
+}
+.leftCells:hover{
+    background-color: #98a89079;
+}
+.rightCells:hover{
+    background-color: #98a89079;
+}
+.pictureButtons:hover{
+    background-color: #98a89079;
 }
